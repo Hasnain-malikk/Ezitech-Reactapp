@@ -4,7 +4,7 @@ import './AboutUs.css'
 const AboutUs = () => {
   return (
     <div>
-      
+      this is about us
     </div>
   )
 }

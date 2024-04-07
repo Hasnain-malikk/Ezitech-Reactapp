@@ -4,7 +4,7 @@ import './Seminar.css'
 const Seminar = () => {
   return (
     <div>
-      
+      this is seminar
     </div>
   )
 }

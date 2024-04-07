@@ -4,7 +4,7 @@ import './Register.css'
 const Register = () => {
   return (
     <div>
-      
+      this is Register
     </div>
   )
 }

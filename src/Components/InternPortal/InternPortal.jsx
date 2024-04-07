@@ -4,7 +4,7 @@ import './InternPortal.css'
 const InternPortal = () => {
   return (
     <div>
-      
+      this is internportal
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
-import './Interships.css'
+import './Internships.css'
 
 const Interships = () => {
   return (
     <div>
-      
+      this is internship
     </div>
   )
 }
