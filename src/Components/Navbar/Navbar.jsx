@@ -7,6 +7,8 @@ import {
     faLocationDot,
     faClock,
     faUser,
+    faHeart,
+    faMagnifyingGlass
 } from "@fortawesome/free-solid-svg-icons";
 import {
     faBehance,
@@ -15,6 +17,7 @@ import {
     faLinkedinIn,
     faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
+import navLogo from '../Assets/EZITECH-LOGO-white.png'
 
 const Navbar = () => {
     return (
@@ -98,7 +101,26 @@ const Navbar = () => {
                     </a>
                 </span>
             </div>
-            <div className="bottom">hi im bottom</div>
+            <div className="bottom">
+                <div className="bottom-logo">
+                    <a href="/"><img src={navLogo} alt="Logo" /></a>
+                </div>
+                <div className="bottom-links">
+                    <ul>
+                        <a style={{ color: "white", textDecoration: "none" }} href="/"><li>HOME</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="/"><li>ABOUT US</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="/"><li>CERTIFICATIONS</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="/"><li>INTERNSHIPS</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="/"><li>SEMINARS</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="/"><li>INTERN PORTAL</li></a>
+                    </ul>
+                </div>
+                <div className="bottom-search-bar">
+                    <span style={{color:"darkgray", height:'20px'}}>|</span>
+                    <a style={{ color: "white", textDecoration: "none" }} href=""><span><FontAwesomeIcon icon={faHeart} /></span></a>
+                    <a style={{ color: "white", textDecoration: "none", border: "2px solid white", padding: "3px" }} href=""><span><FontAwesomeIcon icon={faMagnifyingGlass} /></span></a>
+                </div>
+            </div>
         </div>
     );
 };

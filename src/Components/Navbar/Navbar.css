@@ -7,7 +7,7 @@
     justify-content: space-evenly;
     align-items: center;
     display: flex;
-    height: 32px;
+    height: 35px;
 
 }
 
@@ -17,4 +17,35 @@
 .social-icon {
     display: flex;
     gap: 15px;
+}
+.bottom {
+    background-color: #494f57;
+    height: 90px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bottom-logo img {
+    height: 62px;
+}
+.bottom-links ul {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    gap: 23px;
+    font-size: 14px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.bottom-search-bar {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-links ul li:hover {
+    color:rgb(31, 139, 189) ;
 }
