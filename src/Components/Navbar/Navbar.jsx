@@ -118,9 +118,10 @@ const Navbar = () => {
                 <div className="bottom-search-bar">
                     <span style={{color:"darkgray", height:'20px'}}>|</span>
                     <a style={{ color: "white", textDecoration: "none" }} href=""><span><FontAwesomeIcon icon={faHeart} /></span></a>
-                    <a style={{ color: "white", textDecoration: "none", border: "2px solid white", padding: "3px" }} href=""><span><FontAwesomeIcon icon={faMagnifyingGlass} /></span></a>
+                    <a style={{ color: "white", textDecoration: "none", border: "3px solid white", padding: "5px" }} href=""><span><FontAwesomeIcon icon={faMagnifyingGlass} /></span></a>
                 </div>
             </div>
+            <hr />
         </div>
     );
 };
