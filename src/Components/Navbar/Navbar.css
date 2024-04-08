@@ -1,5 +1,4 @@
 .top {
-    background-color: #3275db;
     color: white;
     font-family: "Poppins", sans-serif;
     font-size: 12px;
@@ -8,7 +7,7 @@
     align-items: center;
     display: flex;
     height: 35px;
-
+    background-color: #3275db;
 }
 
 .icons {
@@ -19,12 +18,11 @@
     gap: 15px;
 }
 .bottom {
-    background-color: #494f57;
     height: 90px;
     color: white;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;/
 }
 .bottom-logo img {
     height: 62px;
@@ -49,3 +47,10 @@
 .bottom-links ul li:hover {
     color:rgb(31, 139, 189) ;
 }
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 2; 
+}
+

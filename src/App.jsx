@@ -8,6 +8,7 @@ import Seminar from './Components/Seminar/Seminar'
 import InternPortal from './Components/InternPortal/InternPortal'
 import Login from './Components/Login/Login'
 import Register from './Components/Register/Register'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Route path='/login' element={<Login/>}/>
       <Route path='/register' element={<Register/>}/>
       </Routes>
+      <Footer/>
       </BrowserRouter>
       
     </div>

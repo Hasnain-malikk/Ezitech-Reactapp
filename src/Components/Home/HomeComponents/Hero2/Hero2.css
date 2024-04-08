@@ -1,0 +1,18 @@
+.text-hero2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 60px;
+}
+.hero2-box {
+    display: flex;
+    padding: 0 150px;
+    font-family: "Montserrat", sans-serif;
+}
+.text {
+    padding: 10px;
+}

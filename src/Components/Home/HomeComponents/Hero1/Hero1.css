@@ -1,0 +1,77 @@
+.hero1 {
+    position: relative;
+    background-image: url('../background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 50px;
+    
+}
+
+.hero1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(50, 117, 219, 0.5); 
+}
+.hero1-content {
+    text-align: center;
+    z-index: 1; 
+}
+.hero1 div {
+    z-index: 4;
+    font-family: "Montserrat", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.hero-text {
+    padding: 0 0 0 64px;
+}
+.typing-text {
+    color: rgb(0, 204, 255);
+}
+
+.search-container {
+    padding: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3275db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #205ba3;
+}
+.serach-bottom {
+    font-size: 20px;
+    font-weight: 400;
+}
+
