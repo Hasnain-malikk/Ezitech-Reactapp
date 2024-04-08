@@ -92,11 +92,11 @@ const Navbar = () => {
                     <span className="icons">
                         <FontAwesomeIcon icon={faUser} />
                     </span>
-                    <a className="icons" style={{ color: "white", textDecoration: "none" }} href="/login">
+                    <a className="icons" style={{ color: "white", textDecoration: "none" }} href="https://ezitech.org/user-account/">
                         <span>Login</span>
                     </a>
                     <span className="icons" style={{color:"darkgray"}} >|</span>
-                    <a className="icons" style={{ color: "white", textDecoration: "none" }} href="/register">
+                    <a className="icons" style={{ color: "white", textDecoration: "none" }} href="https://ezitech.org/user-account/?mode=register">
                         <span>Register</span>
                     </a>
                 </span>
@@ -108,11 +108,11 @@ const Navbar = () => {
                 <div className="bottom-links">
                     <ul>
                         <a style={{ color: "white", textDecoration: "none" }} href="/"><li>HOME</li></a>
-                        <a style={{ color: "white", textDecoration: "none" }} href="/aboutus"><li>ABOUT US</li></a>
-                        <a style={{ color: "white", textDecoration: "none" }} href="/certifications"><li>CERTIFICATIONS</li></a>
-                        <a style={{ color: "white", textDecoration: "none" }} href="/internships"><li>INTERNSHIPS</li></a>
-                        <a style={{ color: "white", textDecoration: "none" }} href="/seminar"><li>SEMINARS</li></a>
-                        <a style={{ color: "white", textDecoration: "none" }} href="/internportal"><li>INTERN PORTAL</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="https://ezitech.org/about-ezitech/"><li>ABOUT US</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="https://ezitech.org/certifications/"><li>CERTIFICATIONS</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="https://ezitech.org/internship-program/"><li>INTERNSHIPS</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="https://ezitech.org/seminars/"><li>SEMINARS</li></a>
+                        <a style={{ color: "white", textDecoration: "none" }} href="https://ezitech.org/iportal/"><li>INTERN PORTAL</li></a>
                     </ul>
                 </div>
                 <div className="bottom-search-bar">
