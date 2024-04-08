@@ -6,16 +6,16 @@ const Hero2 = () => {
     <div className='Hero2'>
       <div className='text-hero2'><h1>Best IT Service Award 2023</h1></div>
       <div className='hero2-box'>
-        <span><img src={heroImg} alt="" /></span>
-        <div><strong>Ezitech Is affiliated With <a style={{textDecoration:"none", color:"#3467eb"}} href="/"> Eziline Software House</a></strong> . Eziline has been awarded the prestigious Best Software House in IT sector award by the President of Pakistan. This is an incredible achievement and a testament to the hard work and dedication of the entire team at Eziline Software House. The award is a great recognition of the company’s achievements in the field of IT and serves as a major milestone in its journey towards success.
+        <span><img style={{height:"375px"}} src={heroImg} alt="" /></span>
+        <div style={{padding:"0 55px"}}><strong>Ezitech Is affiliated With <a style={{textDecoration:"none", color:"#3467eb"}} href="/"> Eziline Software House</a></strong> . Eziline has been awarded the prestigious Best Software House in IT sector award by the President of Pakistan. This is an incredible achievement and a testament to the hard work and dedication of the entire team at Eziline Software House. The award is a great recognition of the company’s achievements in the field of IT and serves as a major milestone in its journey towards success.
         <div className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel quaerat corrupti velit ratione odit doloremque aut exercitationem ullam, voluptate iste maxime illum, deleniti ex nulla minus obcaecati ad eligendi.
+        This award is a huge source of motivation and inspiration for the entire team at Eziline Software House.<strong> It is a validation of the company’s commitment to innovation, excellence, and customer satisfaction</strong>. The award acknowledges the hard work and dedication of every member of the team who has contributed to the success of the company.
         </div>
         
         <div className="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quidem quo velit quod sequi unde itaque molestias dolores repellendus! Repellat delectus asperiores praesentium natus! Doloribus dicta aliquam aspernatur consectetur ratione.
+        <strong>Ismail Shah, the CEO of Eziline Software House Pvt Ltd</strong> ,received the Best Services Award in the IT sector from the <strong>President of Pakistan, Dr. Arif Alvi,</strong> in recognition of his remarkable contributions to the country’s technology industry.
         </div>
-        <button style={{margin:"13px"}}>Eziline Profile</button>
+        <button style={{margin:"10px 0"}}>Eziline Profile</button>
         </div>
       </div>
 
